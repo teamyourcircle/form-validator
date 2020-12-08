@@ -1,5 +1,5 @@
 {
-  "name": "formValidator",
+  "name": "@TeamYourCircle/formValidator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,9 @@
   },
   "keywords": [],
   "author": "",
+  "repository":{
+    "url": "git://github.com/TeamYourCircle/formValidator.git"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TeamYourCircle/formValidator/issues"
