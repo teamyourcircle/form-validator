@@ -10,10 +10,10 @@
 ### Step2 
 >> Open Working Dir and enter command
 ```
-git clone https://github.com/TeamYourCircle/formValidator
+git clone https://github.com/TeamYourCircle/form-validator
 ```
->> cd formValidator 
->> in formValidator create a .npmrc file and enter a line 
+>> cd form-validator 
+>> in form-validator create a .npmrc file and enter a line 
 ```
 //npm.pkg.github.com/:_authToken=TOKEN
 @TeamYourCircle:registry=https://npm.pkg.github.com
