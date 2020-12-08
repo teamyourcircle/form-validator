@@ -7,17 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TeamYourCircle/form-validator.git"
+    "url": "git://github.com/TeamYourCircle/form-validator.git"
   },
   "keywords": [],
   "author": "",
-  "repository":{
-    "url": "git://github.com/TeamYourCircle/form-validator.git"
-  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TeamYourCircle/form-validator/issues"
   },
-  "homepage": "https://github.com/TeamYourCircle/form-validator#readme"
+  "homepage": "https://github.com/TeamYourCircle/form-validator#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
 }
