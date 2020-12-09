@@ -10,4 +10,4 @@ entry point of package
 const number_module = require('./libs/numbers');
 
 
-module.exports = number_module;
+module.exports.number_module = number_module;

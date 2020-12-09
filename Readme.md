@@ -34,14 +34,15 @@ registry=https://npm.pkg.github.com/TeamYourCircle
 
 ## step 2
 ```js
+import {number_module} from @teamyourcircle/form-validator
+const promises = number_module([{"name":"not_more_than_10_digits","params":[12234343]}])
 
-data.map(d=>{
-    d.then((s)=>console.log(s)).catch((err)=>{
+promises.map(p=>{
+    p.then((s)=>console.log(s)).catch((err)=>{
         console.log(err.message);
     })
 })
 ``` 
 
->> import {number_module} from @teamyourcircle/form-validator
->> number_module([{"name":"not_more_than_10_digits","params":[12234343]}])
+
 
