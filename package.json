@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TeamYourCircle/form-validator#readme",
   "dependencies": {
+    "chai": "^4.2.0",
     "mocha": "^8.2.1"
   }
 }
