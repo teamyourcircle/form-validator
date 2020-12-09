@@ -1,3 +1,12 @@
-module.exports = function(){
-    console.log('Hello From GitHub Package Registry .');
-}
+/*
+form-validator package
+entry point of package
+
+*/
+
+
+'use strict';
+
+
+
+module.exports = require('./libs');
