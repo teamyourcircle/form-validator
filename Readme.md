@@ -21,7 +21,7 @@ git clone https://github.com/TeamYourCircle/form-validator
 >> in place of TOKEN enter yoour token
 
 # How to install this package
-
+## step 1 
 >>  "@teamyourcircle/form-validator": "1.0.0" add this dependency with version in package.json
 
 >> create token as tell above
@@ -31,3 +31,17 @@ git clone https://github.com/TeamYourCircle/form-validator
 //npm.pkg.github.com/:_authToken=TOKEN
 registry=https://npm.pkg.github.com/TeamYourCircle
 ```
+
+## step 2
+```js
+
+data.map(d=>{
+    d.then((s)=>console.log(s)).catch((err)=>{
+        console.log(err.message);
+    })
+})
+``` 
+
+>> import {number_module} from @teamyourcircle/form-validator
+>> number_module([{"name":"not_more_than_10_digits","params":[12234343]}])
+
