@@ -22,7 +22,8 @@ describe('Test for src not_more_than_10_digits', function(){
            done()
         })
         .catch((err)=>{
-            done(err);
+            assert.equal("Number cannot exceed 10",err.message);
+            done();
         })
         
     })
