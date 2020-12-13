@@ -10,17 +10,17 @@ const range_with_min_max = (number) => {
 
 function range_with_min_max_functionality(number, successCallback, errorCallback) {
     
-    let min = 1;
-    let max = 50;
+    let min = number[1];
+    let max = number[2];
     // successfull callback
-    if(number >= min && number <= max)
+    if(number[0] >= min && number[0] <= max)
         successCallback(true);
     // error callback
     else
-        errorCallback( new Error("number not in range of 1 to 50"));
+        errorCallback( new Error("number not in given range"));
 }
 
 // demo testing
-// range_with_min_max([55]).then((success)=>{console.log(success)}).catch((err)=>{console.log(err)});
+// range_with_min_max([5]).then((success)=>{console.log(success)}).catch((err)=>{console.log(err)});
 
 module.exports = range_with_min_max;
