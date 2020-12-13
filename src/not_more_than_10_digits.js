@@ -28,11 +28,11 @@ function not_more_than_10_digits_functionality(number,successCallback,errorCallb
 
 }
 
-/*
-//digits are 5
-not_more_than_10_digits([12345]).then((success)=>{console.log(success)}).catch((err)=>{console.log(err)});
-//digits are 11
-not_more_than_10_digits([12345678900]).then((success)=>{console.log(success)}).catch((err)=>{console.log(err)});
-*/
+
+// //digits are 5
+// not_more_than_10_digits([12345]).then((success)=>{console.log(success)}).catch((err)=>{console.log(err)});
+// //digits are 11
+// not_more_than_10_digits([12345678900]).then((success)=>{console.log(success)}).catch((err)=>{console.log(err)});
+
 
 module.exports = not_more_than_10_digits;
