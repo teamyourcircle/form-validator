@@ -12,9 +12,14 @@ function range_with_min_max_functionality(number, successCallback, errorCallback
     
     let min = number[1];
     let max = number[2];
+    // test bug if min > max
+    if(min > max){
+        max = Number.MAX_VALUE;
+    }
     // successfull callback
-    if(number[0] >= min && number[0] <= max)
+    if(number[0] >= min && number[0] <= max){
         successCallback(true);
+    }
     // error callback
     else
         errorCallback( new Error("number not in given range"));

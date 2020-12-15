@@ -27,4 +27,14 @@ describe('Test is src range_with_min_max', function(){
         })
     })
 
+    it('Test to check for value 3 for min-50 and max-0', (done) => {
+        range_with_min_max([64, 50, 0])
+        .then((s) => {
+            assert.strictEqual(s, true);
+            done();
+        })
+        .catch((err) =>{
+            done(err);
+        })
+    })
 })
